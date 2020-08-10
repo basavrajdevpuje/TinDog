@@ -1,0 +1,192 @@
+body
+{
+  font-family: "Montserrat";
+  position: relative;
+}
+
+.h1_heading
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#title
+{
+  background-color: #FE3C72;
+  color: #fff;
+}
+.container-fluid
+{
+  padding: 3% 15% 11%;
+
+}
+
+.iphone
+{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right:30%
+}
+@media (max-width:1028px)
+{
+  #title
+  {
+    text-align: center;
+  }
+  .iphone
+  {
+    position: static;
+    transform: rotate(0);
+  }
+}
+p
+{
+  color: #8f8f8f;
+}
+h2
+{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/*Navigation bar*/
+.A
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.dwn-btn
+{
+  margin: 5% 4% 5% 0;
+}
+.navbar
+{
+  padding: 0 0 4.5rem;  /*first 0 to left and right, second 0 to top and 4.5rem to the bottom */
+}
+
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding: 0 18px;
+}
+
+/* features */
+
+#features
+{
+  padding: 7% 14%;
+  background-color: #fff;
+  position: relative;
+
+}
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+h3
+{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.ic
+{
+  color: #ff847c;
+  padding-bottom: 5%;
+}
+.ic:hover
+{
+  color: #FE3C72;
+}
+
+/* Testimonials */
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#testimonials
+{
+  text-align: center;
+  background-color: #ff847c;
+  color: #fff;
+}
+
+/* press */
+#press
+{
+  background-color: #ff847c;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+/* Pricing section*/
+.bt
+{
+  background-color: #ff847c;
+  color: #fff;
+}
+.bt:hover
+{
+  background-color: #FE3C72;
+  color: #ff847c;
+}
+
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+.card-deck
+{
+  box-sizing: border-box;
+}
+
+/* downloads */
+
+#cta
+{
+  background-color:#FE3C72;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer
+{
+  padding: 7% 9%;
+  text-align: center;
+}
+.ic1
+{
+  margin: 20px 10px;
+}
+.ic1:hover
+{
+  color: #FE3C72;
+}
